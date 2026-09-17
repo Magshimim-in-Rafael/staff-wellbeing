@@ -1,0 +1,8 @@
+import{c as e,o as t,s as n,u as r}from"./i18n-BimXFCsr.js";var i=n(),a=r(e(),1),o=t();function s(e){let t=(0,i.c)(30),n,r,s,c,l,u,d,f;t[0]===e?(n=t[1],r=t[2],s=t[3],c=t[4],l=t[5],u=t[6],d=t[7],f=t[8]):({label:c,error:n,hint:r,mono:u,invalid:d,className:f,id:s,...l}=e,t[0]=e,t[1]=n,t[2]=r,t[3]=s,t[4]=c,t[5]=l,t[6]=u,t[7]=d,t[8]=f);let p=u!==void 0&&u,m=d!==void 0&&d,h=f===void 0?``:f,g=(0,a.useId)(),_=s??g,v=`${_}-message`,y=!!n||m,b=n||(r&&!n?r:``),x;t[9]!==_||t[10]!==c?(x=c&&(0,o.jsx)(`label`,{htmlFor:_,className:`text-caption font-medium text-ink-700`,children:c}),t[9]=_,t[10]=c,t[11]=x):x=t[11];let S=y||void 0,C=b?v:void 0,w=`
+          h-11 rounded-md border bg-surface px-3.5 text-body text-ink-900
+          outline-none transition-shadow
+          focus:shadow-focus focus:border-accent-700
+          ${y?`border-alert-low-fg`:`border-line`}
+          ${p?`font-mono tracking-[0.4em] text-center`:``}
+          ${h}
+        `,T;t[12]!==_||t[13]!==l||t[14]!==S||t[15]!==C||t[16]!==w?(T=(0,o.jsx)(`input`,{id:_,"aria-invalid":S,"aria-describedby":C,className:w,...l}),t[12]=_,t[13]=l,t[14]=S,t[15]=C,t[16]=w,t[17]=T):T=t[17];let E;t[18]!==n||t[19]!==v?(E=n&&(0,o.jsx)(`p`,{id:v,className:`text-caption text-alert-low-fg`,children:n}),t[18]=n,t[19]=v,t[20]=E):E=t[20];let D;t[21]!==n||t[22]!==r||t[23]!==v?(D=r&&!n&&(0,o.jsx)(`p`,{id:v,className:`text-caption text-ink-400`,children:r}),t[21]=n,t[22]=r,t[23]=v,t[24]=D):D=t[24];let O;return t[25]!==D||t[26]!==x||t[27]!==T||t[28]!==E?(O=(0,o.jsxs)(`div`,{className:`flex flex-col gap-1`,children:[x,T,E,D]}),t[25]=D,t[26]=x,t[27]=T,t[28]=E,t[29]=O):O=t[29],O}export{s as t};
